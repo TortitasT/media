@@ -9,9 +9,9 @@ This is my opinion on remote work after a few months of experience.
 
 I remember many people telling me that remote would have it's drawbacks.
 
-> "You'll miss your coworkers!"
+> You'll miss your coworkers!
 
-> "That much time inside your house will be bad for you" 
+> That much time inside your house will be bad for you
 
 Let me tell you I've never been happier.
 

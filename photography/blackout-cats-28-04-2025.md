@@ -1,6 +1,6 @@
 ---
 title: Street cats photos I did when the whole country was without power
-date: 2025-04-27
+date: 2025-04-28
 ---
 
 > **Note:** Pictures may take a while to load. Click on them to view in full

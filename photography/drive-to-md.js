@@ -23,7 +23,7 @@ function getDriveId(url) {
   return id;
 }
 
-function buildDriveThumnail(id, size = '3000') {
+function buildDriveThumnail(id, size = '2000') {
   return `https://drive.google.com/thumbnail?id=${id}&sz=w${size}`;
 }
 
@@ -37,7 +37,19 @@ function driveUrlsToMarkdown(urls) {
 }
 
 function writeToFile(filePath, data) {
-  fs.writeFile(filePath, data, (err) => {
+  const header = `---
+title: TITLE
+date: 2025-05-24
+---
+
+> **Note:** Pictures may take a while to load. Click on them to view in full
+> size.
+
+`;
+
+  const dataWithHeader = header + data;
+
+  fs.writeFile(filePath, dataWithHeader, (err) => {
     if (err) {
       console.error('Error writing to file:', err);
     } else {
